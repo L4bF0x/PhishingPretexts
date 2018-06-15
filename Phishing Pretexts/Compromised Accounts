@@ -1,29 +1,39 @@
-## Compromised Accounts
-
+<b>Title: Compromised Accounts</b>
+<br>
+<br>
 $greeting $firstname,
-
-
+<br>
+<br>
 The $organization IT Security department has been made aware that some internal user accounts were recently compromised in a cyber attack. In order to identify which accounts have been compromised, we ask that you follow the instructions below as soon as possible. The site mentioned below (HaveIBeenPwned) is well-known and contains a database of popular breaches which have occured in the last 7+ years.
-
+<br>
+<br>
 If the site determines that your account has NOT been compromised, there is nothing more for you to do.
-
+<br>
+<br>
 However, if the site tells you that your password HAS been compromised, please change your password immediately in order to protect company assets and data.
-
-
+<br>
+<br>
 Thank you for your prompt assistance in this matter.
-
+<br>
+<br>
 $organization IT Security
-
+$signature
+<br>
+<br>
 ------------------------------------------
-**Instructions:
-
-Step 1:** Access the "Have I Been Pwned" website here $evilurl.
-
-**Step 2:** To ensure your connection to the site is secure, verify that you see the green padlock icon in your broswer location bar.
-
-**Step 3:** Enter your current $organization login password in the field provided. **DO NOT** enter your username or any other identifying information.
-
-**Step 4:** Click the "Pwned?" button or press "Enter".
-
+<br>
+<b>Instructions:
+<br>
+<br>
+Step 1:</b> Access the "Have I Been Pwned" website <a href="$evilurl">here</a>.
+<br>
+<b>Step 2:</b> To ensure your connection to the site is secure, verify that you see the green padlock icon in your broswer location bar.
+<br>
+<b>Step 3:</b> Enter your current $organization login password in the field provided. <b>DO NOT</b> enter your username or any other identifying information.
+<br>
+<b>Step 4:</b> Click the "Pwned?" button or press "Enter".
+<br>
+<br>
 As mentioned above, if the site determines that your account has NOT been compromised, you are done. If the site determines your password has been stolen, please change it IMMEDIATELY.
+<br>
 ------------------------------------------
