@@ -1,0 +1,37 @@
+<!-- PRETEXT OVERVIEW:
+Payload. Macro.
+$casename: Name from case found on Justia or Courts search.
+$greeting: Good morning/afternoon/evening, etc.
+$hremployee: Employee from HR. Could also be executive or higher-up.
+$fakepassword: Fake generated password used to "derypt" file.
+$legalemployee: Employee from legal.
+$signature: Append or replace with internal signature if acquired.
+
+For payload, you can use a Word document with company logo heading, make it look like gibberish with a note which says: This document is protected by McAfee (or whatever solution target uses). Enable macros and enter password to decrypt contents.
+
+If payload doesn't pass filtering, host it on Amazon and add a URL to file.
+-->
+<b>Subject: Information regarding the $casename case</b>
+<br>
+<br>
+$greeting $hremployee,
+<br>
+<br>
+Some new information regarding the $casename case which went to court last $casedate has been brought to my attention. As you know, we take this kind of information seriously and I wanted to touch base with you for a few things:
+<br>
+<br>
+<ol type="1">
+	<li>Go over the information. (the file is encrypted with a password: $fakepassword)</li>
+	<li>Verify the information.</li>
+	<li>Report back with your comments.</li>
+</ol>
+<br>
+I'm sure you're aware that the nature of the file's contents are sensitive, and therefore ask that you please not discuss them with anyone outside of this e-mail.
+<br>
+<br>
+Cordially,
+<br>
+<br>
+$legalemployee
+<br>
+$signature
