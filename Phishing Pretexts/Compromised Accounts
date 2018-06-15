@@ -1,6 +1,7 @@
-Compromised Accounts
+## Compromised Accounts
 
 $greeting $firstname,
+
 
 The $organization IT Security department has been made aware that some internal user accounts were recently compromised in a cyber attack. In order to identify which accounts have been compromised, we ask that you follow the instructions below as soon as possible. The site mentioned below (HaveIBeenPwned) is well-known and contains a database of popular breaches which have occured in the last 7+ years.
 
@@ -14,15 +15,15 @@ Thank you for your prompt assistance in this matter.
 $organization IT Security
 
 ------------------------------------------
-<b>Instructions:
+**Instructions:
 
-Step 1:</b> Access the "Have I Been Pwned" website <a href="$EVILURL">here</a>.
+Step 1:** Access the "Have I Been Pwned" website here $evilurl.
 
-<b>Step 2:</b> To ensure your connection to the site is secure, verify that you see the green padlock icon in your broswer location bar.
+**Step 2:** To ensure your connection to the site is secure, verify that you see the green padlock icon in your broswer location bar.
 
-<b>Step 3:</b> Enter your current $organization login password in the field provided. <b>DO NOT</b> enter your username or any other identifying information.
+**Step 3:** Enter your current $organization login password in the field provided. **DO NOT** enter your username or any other identifying information.
 
-<b>Step 4:</b> Click the "Pwned?" button or press "Enter".
+**Step 4:** Click the "Pwned?" button or press "Enter".
 
 As mentioned above, if the site determines that your account has NOT been compromised, you are done. If the site determines your password has been stolen, please change it IMMEDIATELY.
 ------------------------------------------
