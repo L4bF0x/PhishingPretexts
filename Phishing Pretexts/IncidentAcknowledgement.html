@@ -1,0 +1,76 @@
+<!-- PRETEXT OVERVIEW:
+Credential Capture.
+
+****This is a 2-part pretext which comes with a redirect page suggestion.****
+$evilurl redirects to -> login portal redicrects to -> incident page
+
+$firstname: Target first name.
+$incidentdate: Date on which the "incident" happened.
+$organization: Target organization.
+$evilurl: URL to login portal.
+$hremployee: Name of HR employee.
+$evildomain: Spoofed domain.
+$signature: Append or replace with internal signature if acquired.
+-->
+<b>Subject: Incident Acknowledgement Form</b>
+<br>
+<br>
+$firstname,
+<br>
+<br>
+We have been notified of your possibly being a 3rd party witness to an incident which took place on $incidentdate. Per $organization's Employee Handbook Rules, we require employees to confirm the incident before proceeding with further questions, should they arise.
+<br>
+<br>
+Please carefully read the anonymized incident description and confirm whether or not you were a witness. Once you have completed the form, we ask that you please use your best judgement and refrain from discussing the incident further. 
+<br>
+<br>
+$evilurl
+<br>
+<br>
+Once the form is submitted, there is no need for further action and we ask that you please wait for someone from HR to contact you if we have any questions.
+<br>
+<br>
+Thank you for your cooperation,
+<br>
+<br>
+$hremployee
+<br>
+$signature
+
+<!-- INCIDENT PAGE:
+Make sure to copy the look and feel of the $organization with some similar headers, logo's. custom CSS, etc.
+
+$branding: Aforementioned look and feel headers, etc.
+$incidentdate: Date on which the "incident" happened.
+$location: Location of "incident". Can be a break room, lobby, whatever place fits for the target.
+$time: Time at which the 'incident' took place.
+$organization: Target organization.
+$spoofedemail: A spoofed e-mail which goes back to something like hr@fakedomain.com.
+-->
+<br>
+<br>
+<br>
+<br>
+------------------------START OF INCIDENT PAGE------------------------
+<br>
+<br>
+$branding
+<br>
+<br>
+Due to privacy regulations, employees involved in the incident will hereby be referred to as 'Employee A' and 'Employee B'.
+<br>
+<br>
+Incident description:
+<br>
+<br>
+On $incidentdate, in $location and at $time, Employee A made a derogatory comment about a charity or organization to Employee B who is a member of said charity or organization. Employee B then left the room.
+<br>
+<br>
+<form action="/action_page.php" method="get">
+  <input type="checkbox" name="vehicle" value="Bike"> I was not witness to this incident.<br>
+  <input type="checkbox" name="vehicle" value="Car" checked="checked"> I was witness to this incident.<br>
+  <input type="submit" value="Submit">
+</form>
+<br>
+<br>
+&copy; 2018 $organization Human Resources Incident Response Form. For questions, contact $spoofedemail.
