@@ -1,0 +1,37 @@
+<!-- PRETEXT OVERVIEW:
+Credential capture.
+$greeting: Good morning/afternoon/evening, etc.
+$firstname: Target first name.
+$organization: Target organization.
+$department: Random department within the organization.
+$evilurl: URL to cloned portal for payroll or the VPN.
+$accountingemployee: Employee first name and last name that works in accounting.
+$signature: Append or replace with internal signature if acquired.
+$name: Target first and last name.
+
+Can be sent as accountingemployee@domain.com
+Make sure to setup the inbox so users can reply to this message.
+-->
+<b>Subject: Verify State for Payroll Deductible</b>
+<br>
+<br>
+$greeting $firstname,
+<br>
+<br>
+We've been having a few issues with paystubs not showing employees' correct state for income tax deduction. This has only affected a handful of people from $organization's $department department so far, however we are being cautious with the issue and asking all employees to make the verification. If the correct state is listed, please disregard this message. Otherwise, please let me know so that myself or someone else from accounting can straighten the issue as soon as possible.
+<br>
+<br>
+We apologize for the issues and can assure you that we are working on resolving this as fast as we can.
+<br>
+<br>
+$evilurl
+<br>
+<br>
+Thank you,
+<br>
+<br>
+$accountingemployee
+<br>
+$signature
+<br>
+<br>
