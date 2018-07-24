@@ -1,5 +1,5 @@
 # Phishing Pretexts
-A library of pretexts to use on offensive phishing engagements. Orginially presented at SE-RI by [@L4bF0x](https://twitter.com/L4bf0x) and [@RizzyRong](https://twitter.com/RizzyRong).
+A library of pretexts to use on offensive phishing engagements. Orginially presented at Layer8 by [@L4bF0x](https://twitter.com/L4bf0x) and [@RizzyRong](https://twitter.com/RizzyRong).
 
 The video for our presentation can be found here: https://www.youtube.com/watch?v=D21E_2sXqmo  
 Slides for our presentation can be found here: https://goo.gl/U6qiiy
