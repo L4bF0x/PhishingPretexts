@@ -7,5 +7,7 @@ Slides for our presentation can be found here: https://goo.gl/U6qiiy
 ## Contributors
 This library wouldn't have been possible without help from our fellow colleagues and friends:
 - Jesse Gardner [@dissect0r](https://twitter.com/dissect0r)
+- Aaron Herndon [@Ac3Lives](https://twitter.com/ac3lives)
+- Patrick Laverty [@PLaverty9](https://twitter.com/plaverty9)
 - Trevor O'Donnal [@todonnal](https://twitter.com/todonnal)
-- Jason Zaffuto https://github.com/gh0st33
+- Jason Zaffuto [@ArtificeSec](https://twitter.com/ArtificeSec)
